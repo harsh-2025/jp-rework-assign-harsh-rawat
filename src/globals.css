@@ -1,0 +1,27 @@
+/* Hide the dropdown arrow */
+.custom-multiselect .p-multiselect-trigger {
+    display: none; /* This hides the dropdown arrow */
+    margin-right: 20px;
+}
+
+/* Add spacing between options */
+.custom-panel .p-multiselect-item {
+    padding: 8px 16px; /* Adds space between options */
+    border-bottom: 1px solid #e0e0e0; /* Separator line */
+}
+
+/* Improve the appearance of checkboxes */
+.custom-panel .p-checkbox {
+    margin-right: 8px; /* Adds space between the checkbox and the label */
+    margin-left: 0px;
+}
+
+/* Add background color to options */
+.custom-panel .p-multiselect-item {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect for better UX */
+.custom-panel .p-multiselect-item:hover {
+    background-color: #ececec;
+}
